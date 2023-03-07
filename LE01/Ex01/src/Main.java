@@ -14,7 +14,6 @@ public class Main {
 		litros = s.nextFloat();
 		r = km / litros;
 		System.out.println("Resultado " + r + " km/l");
-		System.gc();
 	}
 
 }
