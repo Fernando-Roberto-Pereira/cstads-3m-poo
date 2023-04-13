@@ -15,7 +15,7 @@ public class Pessoa {
 		for (int i = 0; i < alEndereco.size(); i++) {
 			System.out.println("\t" + alEndereco.get(i).getRua());
 		}
-		System.out.println("\n");
+		System.out.println("");
 	}
 	public void adicionaEndereco(Endereco endereco) {
 		this.alEndereco.add(endereco);
