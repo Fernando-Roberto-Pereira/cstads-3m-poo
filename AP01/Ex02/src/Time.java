@@ -5,12 +5,12 @@ import java.util.ArrayList;
 public class Time {
 	private String nome;
 
+	private ArrayList<Pessoa> alPessoa = new ArrayList<Pessoa>();
+
 	public Time(String nome, Pessoa pessoa) {
 		this.nome = nome;
 		this.alPessoa.add(pessoa);
 	}
-
-	private ArrayList<Pessoa> alPessoa = new ArrayList<Pessoa>();
 
 	public void setPessoa(Pessoa pessoa) {
 		this.alPessoa.add(pessoa);
