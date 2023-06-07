@@ -1,6 +1,6 @@
 package AP03.Ex01.src;
 public class Main {
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 		Lapis l = new Lapis("Grafite");
 		l.escrever("Olá mundo!");
 		l = null;
